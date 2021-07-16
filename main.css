@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to right, orange, skyblue, lightsalmon);
+}
+
+#title {
+    font-size: 2rem;
+    color: navy;
+    font-family: Garamond, cursive;
+    text-align: center;
+    padding: 2%;
+}
+
+#number_one {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Montserrat, Calibri, cursive;
+    padding-bottom: 20px;
+}
+
+#number_two {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Montserrat, Calibri, cursive;
+    padding-top: 20px;
+}
+
+#operand_type {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+#text_Area {
+    text-align: center;
+    padding: 40px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 40px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#calculate, #reload {
+    font-size: 2rem;
+    background-color: dodgerblue;
+    cursor: pointer;
+    margin: 20px 40px;
+    border-radius: 24px;
+}
+
+#calculate:hover, #reload:hover {
+    background-color: navy;
+    color: cornsilk;
+}
